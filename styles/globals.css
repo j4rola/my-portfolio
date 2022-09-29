@@ -15,10 +15,50 @@ a {
   box-sizing: border-box;
 }
 
+.ghost-y-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.ghost-x-100 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .blue {
   background-color: rgb(0, 46, 92);
 }
 
-.gray {
-  background-color: lightgrey;
+.text-blue {
+
+  color: rgb(0, 46, 92);
+
 }
+
+.gray {
+  background-color: rgb(244, 244, 244);
+}
+
+.flexy {
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  flex-direction: column; 
+}
+
+.no-underline {
+  text-decoration: none 
+}
+
+.my-6 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mx-6 {
+  margin-left: 50px; 
+  margin-right: 50px; 
+}
+
+
+
