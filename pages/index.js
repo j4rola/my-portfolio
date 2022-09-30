@@ -25,7 +25,7 @@ export default function Home() {
           <img src="https://img.icons8.com/color/200/000000/pixar-lamp-2.png"/>
           <div className='flexy'></div> 
           <HeaderCard/>
-          <img className='d-none d-lg-block' src="https://img.icons8.com/color/200/000000/pixar-lamp.png"/>
+          <img className='d-none d-lg-block ms-5' src="https://img.icons8.com/color/200/000000/pixar-lamp.png"/>
         </div> 
       </section> 
 
