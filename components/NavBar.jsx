@@ -8,8 +8,8 @@ function NavBar() {
     <Navbar collapseOnSelect expand="lg" className='blue' variant='dark'>
       <Container>
         <Navbar.Brand href="#home">Joe Froula</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
+        <Navbar.Collapse id="responsive-navbar-nav"> 
           <Nav className="me-auto">
             <Nav.Link href="#features">Contact</Nav.Link>
             <Nav.Link href="#pricing">Projects</Nav.Link>

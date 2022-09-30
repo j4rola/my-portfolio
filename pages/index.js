@@ -1,7 +1,10 @@
 import Head from 'next/head'; 
 import NavBar from '../components/NavBar'; 
 import HeaderCard from '../components/HeaderCard';
+import { FcCommandLine } from 'react-icons/fc'
+
 import Projects from '../components/Projects'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() { 
@@ -16,10 +19,13 @@ export default function Home() {
 
       <div className='ghost-y-100'></div>
 
-      <section name='header' className='d-flex flex-column justify-content-center align-items-center p-3'>
-        <div className='d-flex flex-column flex-sm-row justify-center align-items-center'> 
+      <section name='header' className='d-flex flex-column justify-content-center align-items-center p-3'> 
+        <div className='w-100 d-flex flex-column flex-md-row justify-content-around align-items-center px-5'> 
+          
+          <img src="https://img.icons8.com/color/200/000000/pixar-lamp-2.png"/>
+          <div className='flexy'></div> 
           <HeaderCard/>
-          <div className='flexy'><h1 className='text-blue'>{'<> Your Idea Here </>'}</h1></div> 
+          <img className='d-none d-lg-block' src="https://img.icons8.com/color/200/000000/pixar-lamp.png"/>
         </div> 
       </section> 
 
@@ -27,7 +33,7 @@ export default function Home() {
 
       <section name='projects' className='d-flex flex-column justify-center align-items-center p-3'> 
         <div className='d-flex flex-column flex-sm-row justify-center align-items-center'> 
-        
+
           <Projects></Projects>   
           
         </div> 
