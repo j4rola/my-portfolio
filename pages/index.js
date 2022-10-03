@@ -1,13 +1,13 @@
 import Head from 'next/head'; 
 import NavBar from '../components/NavBar'; 
 import HeaderCard from '../components/HeaderCard';
-import { FcCommandLine } from 'react-icons/fc'
 
-import Projects from '../components/Projects'
+
+import Projects from '../components/Projects'; 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Home() { 
+export default function Home() {    
   return (
     <div> 
       <Head> 
