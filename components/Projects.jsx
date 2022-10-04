@@ -22,7 +22,7 @@ function Projects() {
                     </Card.Text>   
                     
                     <div className='flexy flex-nowrap'>  
-                        <Button  className='btn-primary my-2'><Link href="https://gorgeous-smakager-5d3cdf.netlify.app/">Check it out</Link></Button>
+                        <Button  className='btn-primary my-2'><Link href="https://gorgeous-smakager-5d3cdf.netlify.app/"><a className='link'>Check it out</a></Link></Button>
                     </div>
                     
                 </Card.Body> 
@@ -36,11 +36,11 @@ function Projects() {
                         A website for selling pure-bred golden doodle puppies. Built with Next.js for optimum SEO capabilities.
                     </Card.Text>   
                         <div className='flexy flex-nowrap'>
-                            <Button className='d-flex flex-row btn-primary my-2 text-inline'>
-                                <Link href="https://www.supercutedoodles.com/">Check it out</Link>
+                            <Button className='btn-primary my-2'>
+                                <Link href="https://www.supercutedoodles.com/"><a className='link'>Check it out</a></Link>
                             </Button>  
                         </div> 
-                </Card.Body> 
+                </Card.Body>   
             </Card> 
 
             <Card className='flexy flex-nowrap m-3 py-2' style={{ width: '20rem', height: '20rem' }}> 
@@ -53,7 +53,7 @@ function Projects() {
                     
                     <div className='flexy flex-nowrap'>  
                         <Button className='btn-primary my-2'> 
-                        <Link href="https://wordle-j4rola.vercel.app/">Check it out</Link>
+                        <Link href="https://wordle-j4rola.vercel.app/"><a className='link'>Check it out</a></Link>
                         </Button>  
                         
                     </div>

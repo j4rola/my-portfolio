@@ -12,10 +12,10 @@ function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
         <Navbar.Collapse id="responsive-navbar-nav"> 
           <Nav className="me-auto">  
-            <Link className='link' href="#contact">Contact</Link>   
-            <Link className='link' href="#projects">Projects</Link>
+            <Link href="#contact"><a className='link'>Contact</a></Link>    
+            <Link className='link' href="#projects"><a className='link'>Projects</a></Link> 
             
-          </Nav>
+          </Nav>  
           <Nav className='text-light'>
             203.707.4230
           </Nav>

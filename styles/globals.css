@@ -66,5 +66,9 @@ a {
   margin: 10px;
 }
 
+.link:hover {
+  color: lightgray;
+}
+
 
 
