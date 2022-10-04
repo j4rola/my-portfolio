@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 function HeaderCard() { 
   return ( 
-    <Fade in>
+    <Fade in timeout={{ enter: 3000 }}>
       <Card className='my-6 mx-6 text-blue p-5' style={{ width: '25rem' }}> 
         <Card.Body className='d-flex flex-column align-items-center p-4'> 
           <Card.Title><h2 className='text-center'>Full Stack Web Solutions</h2></Card.Title>   
