@@ -11,9 +11,9 @@ function NavBar() {
         <Navbar.Brand href="#home">Joe Froula</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
         <Navbar.Collapse id="responsive-navbar-nav"> 
-          <Nav className="me-auto">
-            <Link href="#features">Contact</Link>   
-            <Link href="#projects">Projects</Link>
+          <Nav className="me-auto">  
+            <Link className='no-underline text-light' href="#contact">Contact</Link>   
+            <Link className='no-underline text-light' href="#projects">Projects</Link>
             
           </Nav>
           <Nav className='text-light'>
