@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card'; 
 import { Fade } from '@mui/material'; 
+import Link from 'next/link'; 
 
 
 function HeaderCard() { 
@@ -11,11 +12,11 @@ function HeaderCard() {
           <Card.Text className='text-center'> 
             I specialize in building solutions for small businesses that help them run more efficiently, and reach more people.
           </Card.Text> 
-          <a href="mailto:jmfroula@gmail.com">Hire Me</a>
+          <Link href="mailto:jmfroula@gmail.com">Hire Me</Link> 
           
         </Card.Body>   
       </Card> 
-    </Fade>
+    </Fade> 
   );
 }
 

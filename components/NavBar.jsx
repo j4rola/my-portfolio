@@ -1,4 +1,5 @@
 import Container from 'react-bootstrap/Container';
+import Link from 'next/link'; 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -11,12 +12,12 @@ function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
         <Navbar.Collapse id="responsive-navbar-nav"> 
           <Nav className="me-auto">
-            <a href="#features">Contact</a>   
-            <a href="#projects">Projects</a>
+            <Link href="#features">Contact</Link>   
+            <Link href="#projects">Projects</Link>
             
           </Nav>
-          <Nav>
-            <a href="#deets">203.707.4230</a> 
+          <Nav className='text-light'>
+            203.707.4230
           </Nav>
         </Navbar.Collapse>
       </Container>
