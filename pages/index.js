@@ -14,13 +14,14 @@ export default function Home() {
       </Head> 
       <NavBar></NavBar>  
       <section name='video' className='d-flex flex-column justify-content-center align-items-center'> 
-        <div className='w-100'> 
-          
-          <video src='/covervid.mp4' style={{width: '100%'}} autoPlay loop muted> 
-            <h4 className='text-light'>Helllllloo</h4>
-          </video>
 
+        <div className='w-100' dangerouslySetInnerHTML={{ __html: `
+            <video class='video' src='/covervid.mp4'  loop muted autoplay>
+
+            </video>  
+          `}}>
         </div> 
+
       </section> 
 
       <div className='ghost-y-100'></div>
