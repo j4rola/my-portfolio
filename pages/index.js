@@ -29,9 +29,9 @@ export default function Home() {
       <section name='video' className='d-flex flex-column justify-content-center align-items-center p-3'> 
         <div className='w-100 d-flex flex-column flex-md-row justify-content-around align-items-center px-5'> 
           
-          <iframe src='../public/images/covervid.mp4'> 
-            
-          </iframe>
+          <video src='../public/images/covervid.mp4'> 
+
+          </video>
 
         </div> 
       </section> 
