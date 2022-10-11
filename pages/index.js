@@ -3,7 +3,6 @@ import NavBar from '../components/NavBar';
 import { Fade } from '@mui/material'; 
 import Link from 'next/link'; 
 import Image from 'next/image'
-import image from '../public/pineapple.jpeg'
 import HeaderCard from '../components/HeaderCard';
 import Projects from '../components/Projects';
 import Button from 'react-bootstrap/Button';
