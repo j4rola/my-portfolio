@@ -8,7 +8,7 @@ function Projects() {
   return (
     <div id='projects' className='flexy py-5 gray rounded-3' style={{ width: '97vw'  }}>
         
-                <h2 className='text-blue p-4 '>{'<> projects  </>'}</h2>  
+                <h2 className='text-blue p-4 '>{'<> Projects  </>'}</h2>  
             
         <div className=' w-100 d-flex flex-column flex-lg-row flex-nowrap justify-content-around align-items-center my-5'>
             <Card className='flexy flex-nowrap m-3 py-2' style={{ width: '20rem', height: '20rem'  }}> 
