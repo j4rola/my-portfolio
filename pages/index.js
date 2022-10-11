@@ -43,10 +43,12 @@ export default function Home() {
 
       <div className='flexy'>  
         
-        <div className='flexy small-custom-card d-md-none'>  
+        <div className='flexy small-custom-card d-md-none'>   
+          
+          <img className='my-3' src='/pineapple.jpeg'></img>  
               
-          <h1 className='text-blue text-center'>
-            Full Stack Web Solutions
+          <h1 className='text-blue text-center'>  
+            Full Stack Web Solutions  
           </h1>
           <p className='text-center'>I specialize in building solutions for small businesses that help them run more efficiently, and reach more people.</p>
           <Link href="#projects"><Button className='my-3 btn-success'>My Projects</Button></Link>
