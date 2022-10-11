@@ -1,5 +1,6 @@
 import Head from 'next/head'; 
 import NavBar from '../components/NavBar'; 
+import Skills from '../components/Skills'; 
 import { Fade } from '@mui/material'; 
 import Link from 'next/link'; 
 import Image from 'next/image'
@@ -43,15 +44,16 @@ export default function Home() {
 
       </section> 
 
-      <div className='flexy'>    
-        
+      <div className='flexy'>   
+
+        <Fade in timeout={{ enter: 3000 }}>
         <div className='flexy small-custom-card d-md-none'>     
           
-          <GiPineapple className='pineapple' size={75}></GiPineapple>
+          <GiPineapple className='pineapple mb-2 mt-2' size={75}></GiPineapple>
            
           
               
-          <h1 className='my-3 text-blue text-center'>    
+          <h1 className='my-4 text-blue text-center'>    
             Full Stack Web Solutions  
           </h1>
           <p className='text-center'>I specialize in building solutions for small businesses that help them run more efficiently, and reach more people.</p>
@@ -59,19 +61,28 @@ export default function Home() {
           <Link href="mailto:jmfroula@gmail.com"><Button className='btn-primary'>Hire Me</Button></Link>
               
         </div>  
+        </Fade> 
       </div>
 
 
       <div className='ghost-y-100'></div>
 
-      <section name='projects' className='d-flex flex-column justify-center align-items-center p-3'> 
-        <div className='d-flex flex-column flex-sm-row justify-center align-items-center'> 
+      <section name='projects' className='d-flex flex-column justify-center align-items-center p-3'>  
+        <div className='d-flex flex-column flex-sm-row justify-center align-items-center'>  
 
           <Projects></Projects>     
-          
+  
         </div> 
       </section>
 
+      <div className='ghost-y-100'></div>
+
+      <section>
+        <Skills></Skills>
+      </section>
+
+      <div className='ghost-y-100'></div>
+
     </div> 
-  )
+  )  
 }

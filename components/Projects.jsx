@@ -6,8 +6,8 @@ import Link from 'next/link';
 
 function Projects() {
   return (
-    <div id='projects' className='flexy py-5 gray rounded-1' style={{ width: '97vw'  }}>
-        <Card className='my-5'>  
+    <div id='projects' className='flexy py-5 gray rounded-3' style={{ width: '97vw'  }}>
+        <Card className='my-3'>  
             <Card.Text className='text-center'> 
                 <h2 className='text-blue p-4 '>{'Projects  </>'}</h2>  
             </Card.Text> 
