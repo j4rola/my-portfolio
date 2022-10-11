@@ -46,7 +46,7 @@ export default function Home() {
         
         <div className='flexy small-custom-card d-md-none'>   
           
-          <Image src='/pineapple.jpeg' height='100px' width="100px"></Image>   
+          <img src='/pineapple.jpeg' height='100px' width="100px"></img>   
           
               
           <h1 className='my-2 text-blue text-center'>  
