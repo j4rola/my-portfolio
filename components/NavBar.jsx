@@ -10,8 +10,8 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="#home">Joe Froula</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
-        <Navbar.Collapse id="responsive-navbar-nav"> 
-          <Nav className="me-auto">  
+        <Navbar.Collapse id="responsive-navbar-nav no-border"> 
+          <Nav className="me-auto no-border">  
             <Link href="#contact"><a className='link'>Contact</a></Link>    
             <Link className='link' href="#projects"><a className='link'>Projects</a></Link> 
             

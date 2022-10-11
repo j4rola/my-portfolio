@@ -16,11 +16,13 @@ export default function Home() {
       <section name='video' className='d-flex flex-column justify-content-center align-items-center'> 
 
         <div className='w-100' dangerouslySetInnerHTML={{ __html: `
-            <video class='video' src='/covervid.mp4' loop muted autoplay playsinline>
-              <h1 class='video-text'>TEST</h1>
+            <video class='video' src='/cover-vid.mp4' loop muted autoplay playsinline>
+             
             </video>  
           `}}>
+          
         </div> 
+
 
       </section> 
 

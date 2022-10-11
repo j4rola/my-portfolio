@@ -83,5 +83,9 @@ a {
   color: white;
 }
 
+.no-border { 
+  border: none;  
+}
+
 
 
