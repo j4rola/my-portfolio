@@ -41,7 +41,7 @@ export default function Home() {
 
       </section> 
 
-      <div className='flexy my-5'>
+      <div className='flexy my-5 py-5'>
         <div className='flexy small-custom-card d-md-none my-5'>
               
           <h1 className='text-blue text-center'>
