@@ -44,7 +44,7 @@ export default function Home() {
 
       </section> 
 
-      <div className='flexy'>  
+      <div className='flexy'>    
         
         <div className='flexy small-custom-card d-md-none'>     
           
