@@ -2,6 +2,7 @@ import Head from 'next/head';
 import NavBar from '../components/NavBar'; 
 import { Fade } from '@mui/material'; 
 import Link from 'next/link'; 
+import Image from 'next/image'
 import HeaderCard from '../components/HeaderCard';
 import Projects from '../components/Projects';
 import Button from 'react-bootstrap/Button';
@@ -45,7 +46,8 @@ export default function Home() {
         
         <div className='flexy small-custom-card d-md-none'>   
           
-          <img className='my-3' src='/pineapple.jpeg'></img>  
+          <Image src='/pineapple.jpeg' height='100px' width="100px"></Image>   
+          
               
           <h1 className='text-blue text-center'>  
             Full Stack Web Solutions  
