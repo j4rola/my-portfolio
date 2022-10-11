@@ -7,6 +7,7 @@ import image from '../public/pineapple.jpeg'
 import HeaderCard from '../components/HeaderCard';
 import Projects from '../components/Projects';
 import Button from 'react-bootstrap/Button';
+import { GiPineapple } from "react-icons/gi";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {    
@@ -47,7 +48,8 @@ export default function Home() {
         
         <div className='flexy small-custom-card d-md-none'>     
           
-          <Image src={image} height='100px' width="100px"></Image>   
+          <GiPineapple className='pineapple' size={75}></GiPineapple>
+           
           
               
           <h1 className='my-3 text-blue text-center'>    
