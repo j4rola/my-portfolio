@@ -44,7 +44,7 @@ export default function Home() {
 
       <div className='flexy'>  
         
-        <div className='flexy small-custom-card d-md-none'>   
+        <div className='flexy small-custom-card d-md-none'>     
           
           <img src='https://asset.cloudinary.com/dcqmxufnx/4be0cceab1db347e7991fe849665d0fe' height='100px' width="100px"></img>   
           
