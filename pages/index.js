@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar';
 import { Fade } from '@mui/material'; 
 import Link from 'next/link'; 
 import Image from 'next/image'
+import image from '../public/pineapple.jpeg'
 import HeaderCard from '../components/HeaderCard';
 import Projects from '../components/Projects';
 import Button from 'react-bootstrap/Button';
@@ -46,7 +47,7 @@ export default function Home() {
         
         <div className='flexy small-custom-card d-md-none'>     
           
-          <img src='https://asset.cloudinary.com/dcqmxufnx/4be0cceab1db347e7991fe849665d0fe' height='100px' width="100px"></img>   
+          <Image src={image} height='100px' width="100px"></Image>   
           
               
           <h1 className='my-3 text-blue text-center'>    

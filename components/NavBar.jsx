@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
+
 function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" className='blue' variant='dark'>
@@ -14,7 +15,7 @@ function NavBar() {
           <Nav className="me-auto no-border">  
             <Link href="#contact"><a className='link'>Contact</a></Link>    
             <Link className='link' href="#projects"><a className='link'>Projects</a></Link> 
-            <Link className='link' href="#projects"><a className='link'>Make a payment</a></Link>
+            <Link className='link' href="#projects"><a className='link'>Make a Payment</a></Link>
             
           </Nav>  
           <Nav className='text-light'>
