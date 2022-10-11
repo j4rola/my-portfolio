@@ -46,10 +46,10 @@ export default function Home() {
         
         <div className='flexy small-custom-card d-md-none'>   
           
-          <img src='/pineapple.jpeg' height='100px' width="100px"></img>   
+          <img src='https://asset.cloudinary.com/dcqmxufnx/4be0cceab1db347e7991fe849665d0fe' height='100px' width="100px"></img>   
           
               
-          <h1 className='my-2 text-blue text-center'>  
+          <h1 className='my-3 text-blue text-center'>    
             Full Stack Web Solutions  
           </h1>
           <p className='text-center'>I specialize in building solutions for small businesses that help them run more efficiently, and reach more people.</p>
