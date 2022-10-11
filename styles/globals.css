@@ -73,12 +73,13 @@ a {
 .video {
   width: 100%;
   z-index: 0;
-  position: relative;
+  
 }
 
 .video-text {
   z-index: 1;
   position: absolute;
+  top: 20%;
   color: white;
 }
 
