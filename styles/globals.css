@@ -103,8 +103,8 @@ a {
 }
 
 .small-custom-card {
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
   z-index: 1;
   width: 65%;
   background-color: white;
