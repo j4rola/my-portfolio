@@ -49,14 +49,14 @@ export default function Home() {
           <Image src='/pineapple.jpeg' height='100px' width="100px"></Image>   
           
               
-          <h1 className='text-blue text-center'>  
+          <h1 className='my-2 text-blue text-center'>  
             Full Stack Web Solutions  
           </h1>
           <p className='text-center'>I specialize in building solutions for small businesses that help them run more efficiently, and reach more people.</p>
           <Link href="#projects"><Button className='my-3 btn-success'>My Projects</Button></Link>
           <Link href="mailto:jmfroula@gmail.com"><Button className='btn-primary'>Hire Me</Button></Link>
               
-        </div>
+        </div>  
       </div>
 
 
