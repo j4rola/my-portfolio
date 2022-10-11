@@ -50,6 +50,7 @@ a {
   text-decoration: none 
 }
 
+
 .my-6 {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -102,7 +103,8 @@ a {
 }
 
 .small-custom-card {
-  margin-top: 25vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
   z-index: 1;
   width: 65%;
   background-color: white;

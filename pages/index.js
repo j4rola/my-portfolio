@@ -41,9 +41,9 @@ export default function Home() {
 
       </section> 
 
-      <div className='flexy'>
+      <div className='flexy'>  
         
-        <div className='flexy small-custom-card d-md-none my-6'>
+        <div className='flexy small-custom-card d-md-none'>  
               
           <h1 className='text-blue text-center'>
             Full Stack Web Solutions

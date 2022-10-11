@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Link from 'next/link'; 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 
 function NavBar() {
   return (
@@ -14,6 +14,7 @@ function NavBar() {
           <Nav className="me-auto no-border">  
             <Link href="#contact"><a className='link'>Contact</a></Link>    
             <Link className='link' href="#projects"><a className='link'>Projects</a></Link> 
+            <Link className='link' href="#projects"><a className='link'>Make a payment</a></Link>
             
           </Nav>  
           <Nav className='text-light'>
