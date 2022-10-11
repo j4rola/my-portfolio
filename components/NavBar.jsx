@@ -15,15 +15,15 @@ function NavBar() {
           <Nav className="me-auto no-border">  
             <Link href="#contact"><a className='link'>Contact</a></Link>    
             <Link className='link' href="#projects"><a className='link'>Projects</a></Link> 
-            <Link className='link' href="#projects"><a className='link'>Make a Payment</a></Link>
+            <Link className='link' href="https://buy.stripe.com/cN23eW13uapb2pW000"><a className='link'>Make a Payment</a></Link>
             
           </Nav>  
-          <Nav className='text-light'>
-            203.707.4230
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+          <Nav className='text-light'>    
+            203.707.4230   
+          </Nav>   
+        </Navbar.Collapse>   
+      </Container>   
+    </Navbar>   
   );
 }
 

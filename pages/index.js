@@ -49,7 +49,7 @@ export default function Home() {
         <Fade in timeout={{ enter: 3000 }}>
           <div className='flexy small-custom-card d-md-none'>     
             
-            <GiPineapple className='pineapple mb-2 mt-2' size={75}></GiPineapple>
+            <GiPineapple className='pineapple text-blue mb-2 mt-2' size={75}></GiPineapple>
             
             
                 
