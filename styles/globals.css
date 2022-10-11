@@ -101,5 +101,15 @@ a {
   border: none;  
 }
 
+.small-custom-card {
+  margin-top: 25vh;
+  z-index: 1;
+  width: 65%;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 30px;
+}
+
 
 
