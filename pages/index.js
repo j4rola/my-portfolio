@@ -17,7 +17,7 @@ export default function Home() {
 
         <div className='w-100' dangerouslySetInnerHTML={{ __html: `
             <video class='video' src='/covervid.mp4' loop muted autoplay playsinline>
-
+              <h1 class='video-text'>TEST</h1>
             </video>  
           `}}>
         </div> 
