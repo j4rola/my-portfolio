@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';  
 import Link from 'next/link'; 
 
 
@@ -10,7 +10,7 @@ function Projects() {
         
                 <h1 className='text-blue p-4 '>{'<> Projects  </>'}</h1>  
             
-        <div className=' w-100 d-flex flex-column flex-lg-row flex-nowrap justify-content-around align-items-center my-5'>
+        <div className=' w-100 d-flex flex-column flex-lg-row flex-nowrap justify-content-around align-items-center my-5'>  
             <Card className='flexy flex-nowrap m-3 py-2' style={{ width: '20rem', height: '20rem'  }}> 
                 <Card.Body className='flexy flex-nowrap p-4 m-4'> 
 
@@ -31,7 +31,7 @@ function Projects() {
 
                     <Card.Title className='text-center'>Puppy Website</Card.Title>    
                     <Card.Text className='text-center'>   
-                        A website for selling pure-bred golden doodle puppies. Built with Next.js for optimum SEO capabilities.
+                        A website I made for a client who sells pure-bred golden doodle puppies. Built with Next.js for optimum SEO capabilities.
                     </Card.Text>   
                         <div className='flexy flex-nowrap'>
                             <Button className='btn-primary my-2'>
