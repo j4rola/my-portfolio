@@ -36,7 +36,7 @@ function Projects() {
                         <div className='flexy flex-nowrap'>
                             <Button className='btn-primary my-2'>
                                 <Link href="https://www.supercutedoodles.com/"><a className='link'>Check it out</a></Link>
-                            </Button>  
+                            </Button>         
                         </div> 
                 </Card.Body>   
             </Card> 
