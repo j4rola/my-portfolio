@@ -6,12 +6,12 @@ import Link from 'next/link';
 
 function Projects() {  
   return (
-    <div id='projects' className='flexy py-5 gray rounded-3' style={{ width: '97vw'  }}>
+    <div id='projects' className='flexy py-5 gray rounded-3' style={{ width: '97vw' }}>
         
-                <h1 className='text-blue p-4 '>{'<> Projects  </>'}</h1>  
+                <h1 className='text-blue p-4 shadow'>{'<> Projects  </>'}</h1>  
             
         <div className=' w-100 d-flex flex-column flex-lg-row flex-nowrap justify-content-around align-items-center my-5'>  
-            <Card className='flexy flex-nowrap m-3 py-2' style={{ width: '20rem', height: '20rem'  }}> 
+            <Card className='flexy flex-nowrap m-3 py-2 shadow' style={{ width: '20rem', height: '20rem'  }}> 
                 <Card.Body className='flexy flex-nowrap p-4 m-4'> 
 
                     <Card.Title className='text-center'>Crowdsourcing Platform</Card.Title>   
@@ -26,7 +26,7 @@ function Projects() {
                 </Card.Body> 
             </Card> 
 
-            <Card className='flexy flex-nowrap m-3 mx-5 py-2' style={{ width: '20rem', height: '20rem' }}> 
+            <Card className='flexy flex-nowrap m-3 mx-5 py-2 shadow' style={{ width: '20rem', height: '20rem' }}> 
                 <Card.Body className='flexy flex-nowrap p-4 m-4'> 
 
                     <Card.Title className='text-center'>Puppy Website</Card.Title>    
@@ -41,7 +41,7 @@ function Projects() {
                 </Card.Body>     
             </Card>   
 
-            <Card className='flexy flex-nowrap m-3 py-2' style={{ width: '20rem', height: '20rem' }}>  
+            <Card className='flexy flex-nowrap m-3 py-2 shadow' style={{ width: '20rem', height: '20rem' }}>  
                 <Card.Body className='flexy flex-nowrap p-4 m-4'> 
 
                     <Card.Title>Wordle Clone</Card.Title>    
