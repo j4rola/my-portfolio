@@ -17,7 +17,7 @@ function ContactModal() {
         Contact
       </div>
 
-      <Modal show={show} onHide={handleClose}> 
+      <Modal show={show} onHide={handleClose} className='mt-5'> 
         <Modal.Header closeButton> 
           <Modal.Title>Contact</Modal.Title> 
         </Modal.Header>
