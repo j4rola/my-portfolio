@@ -22,7 +22,7 @@ function ContactModal() {
           <Modal.Title>Contact</Modal.Title> 
         </Modal.Header>
         <div className='flexy my-4'>
-        <Modal.Body><Link href="mailto:jmfroula@gmail.com">jmfroula@gmail</Link></Modal.Body>
+        <Modal.Body><Link href="mailto:jmfroula@gmail.com">jmfroula@gmail.com</Link></Modal.Body>
         <Modal.Body>203.707.4230</Modal.Body> 
         </div>
         <Modal.Footer>
