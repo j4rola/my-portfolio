@@ -14,7 +14,7 @@ export default function handler(req, res) {
     const ip = req.body.data.ip
     const domain = req.body.data.asn.domain
     const city = req.body.data.city
-    const region = req.body.data.region 
+    const region = req.body.data.region   
     const text = `Someone from ${city}, ${region} viewed your website.  Domain: ${domain} IP Address: ${ip}`
     console.log(text)
     //create text message 
