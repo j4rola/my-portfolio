@@ -1,9 +1,9 @@
-const axios = require('axios').default;
+const axios = require('axios');
 import { useEffect, useState } from 'react'; 
 import Head from 'next/head'; 
 import NavBar from '../components/NavBar'; 
 import Skills from '../components/Skills'; 
-import Header from '../components/Header'
+import Header from '../components/Header'; 
 import { Fade } from '@mui/material'; 
 import Link from 'next/link'; 
 import Image from 'next/image'; 
@@ -39,14 +39,11 @@ export default function Home() {
   // }, [])
 
   const handleText = async () => {  
-    const data = await fetch('https://api.ipdata.co/?api-key=086f6229233c6b9511098c344b1594ec8f4dd4543448980e004b8518')
+    const data = await axios.get('https://api.ipdata.co/?api-key=086f6229233c6b9511098c344b1594ec8f4dd4543448980e004b8518')
 
-    //const res = axios.post('https://www.joefroula.dev/api/send-message', data)
+    const res = axios.post('https://www.joefroula.dev/api/send-message', data)
 
-    const res = await fetch('https://www.joefroula.dev/api/send-message', {
-      method: "POST",
-      body: JSON.stringify(data)
-    })
+    return res.json()
   }
     
   handleText()
