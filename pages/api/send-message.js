@@ -15,14 +15,14 @@ export default function handler(req, res) {
     const domain = req.body.data.asn.domain
     const city = req.body.data.city
     const region = req.body.data.region 
-    const text = `Someone from ${city}, ${region} viewed your website. Domain: ${domain} IP Address: ${ip}`
+    const text = `Someone from ${city}, ${region} viewed your website.  Domain: ${domain} IP Address: ${ip}`
     
     //create text message 
     vonage.message.sendSms(from, to, text, (err, responseData) => {
         if (err) {
             console.log(err);
         } else {
-            if(responseData.messages[0]['status'] === "0") {
+            if(responseData.messages[0]['status'] === "0") {    
                 console.log("Message sent successfully.");
             } else {
                 console.log(`Message failed with error: ${responseData.messages[0]['error-text']}`);
