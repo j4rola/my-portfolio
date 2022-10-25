@@ -43,7 +43,7 @@ export default function Home() {
     const data = await fetch('https://api.ipdata.co/?api-key=086f6229233c6b9511098c344b1594ec8f4dd4543448980e004b8518')
 
     try {
-      const res = await axios.post('/api/send-message', data)
+      const res = await axios.post('/api/send-message', {data})
       return res.json()
     } catch (error) {
       console.log(error)
