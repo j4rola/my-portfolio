@@ -16,7 +16,7 @@ export default function handler(req, res) {
     const city = req.body.data.city
     const region = req.body.data.region 
     const text = `Someone from ${city}, ${region} viewed your website.  Domain: ${domain} IP Address: ${ip}`
-    
+    console.log(text)
     //create text message 
     vonage.message.sendSms(from, to, text, (err, responseData) => {
         if (err) {
