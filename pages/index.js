@@ -1,4 +1,4 @@
-import axios from 'axios'
+const axios = require('axios').default;
 import { useEffect, useState } from 'react'; 
 import Head from 'next/head'; 
 import NavBar from '../components/NavBar'; 
@@ -41,7 +41,7 @@ export default function Home() {
   const handleText = async () => {
     const data = await axios.get('https://api.ipdata.co/?api-key=086f6229233c6b9511098c344b1594ec8f4dd4543448980e004b8518')
 
-    const res = axios.post('/api/send-message', data)
+    const res = axios.post('https://www.joefroula.dev/api/send-message', data)
   }
     
   handleText()
