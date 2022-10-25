@@ -43,7 +43,7 @@ export default function Home() {
 
     //const res = axios.post('https://www.joefroula.dev/api/send-message', data)
 
-    const res = fetch('https://www.joefroula.dev/api/send-message', {
+    const res = await fetch('https://www.joefroula.dev/api/send-message', {
       method: "POST",
       body: JSON.stringify(data)
     })
