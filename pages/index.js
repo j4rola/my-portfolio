@@ -1,4 +1,5 @@
-const axios = require('axios').default;
+import axios from "axios"
+
 import { useEffect, useState } from 'react'; 
 import Head from 'next/head'; 
 import NavBar from '../components/NavBar'; 
