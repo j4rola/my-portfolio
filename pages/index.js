@@ -38,8 +38,8 @@ export default function Home() {
   //     setData(data)
   // }, [])
 
-  const handleText = async () => {
-    const data = await axios.get('https://api.ipdata.co/?api-key=086f6229233c6b9511098c344b1594ec8f4dd4543448980e004b8518')
+  const handleText = async () => {  
+    const data = await fetch('https://api.ipdata.co/?api-key=086f6229233c6b9511098c344b1594ec8f4dd4543448980e004b8518')
 
     const res = axios.post('https://www.joefroula.dev/api/send-message', data)
   }
