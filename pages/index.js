@@ -14,9 +14,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {    
 
-  const getIp = async () => {
+  const getIp = () => {
     
-    const ip = await axios.get('https://api.ipdata.co/?api-key=086f6229233c6b9511098c344b1594ec8f4dd4543448980e004b8518')
+    const ip = axios.get('https://api.ipdata.co/?api-key=086f6229233c6b9511098c344b1594ec8f4dd4543448980e004b8518')
     const address = ip.data.ip  
     console.log(ip) 
 
