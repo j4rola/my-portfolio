@@ -1,10 +1,15 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';  
 import Link from 'next/link'; 
-
+import axios from "axios"
 
 
 function Projects() {  
+
+    const sendEmail = async () => {
+        await axios.post('/api/confirm-email') 
+    }
+
   return (
     <div id='projects' className='flexy py-5 gray rounded-3' style={{ width: '97vw' }}>
         
@@ -34,7 +39,7 @@ function Projects() {
                         A website I made for a client who sells pure-bred golden doodle puppies. Built with Next.js for optimum SEO capabilities.
                     </Card.Text>   
                         <div className='flexy flex-nowrap'>  
-                            <Button className='btn-primary my-2'>  
+                            <Button onClick={sendEmail} className='btn-primary my-2'>  
                                 <Link href="https://www.supercutedoodles.com/"><a className='link'>Check it out</a></Link>  
                             </Button>         
                         </div>   
