@@ -38,9 +38,9 @@ async function main() {
 
 
 export default function handler(req, res) {  
-    if (req.method === 'POST'){
+    
     main().catch(console.error);
     res.status(200).json({ message: 'email sent' }) 
-} 
+ 
 }
   
