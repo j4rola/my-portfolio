@@ -40,8 +40,8 @@ async function main() {
 export default async function handler(req, res) {  
     if (req.method === 'POST'){
     console.log('test')
-    await main().catch(console.error);
-    res.status(200).json({ message: 'email sent' }) 
+    main().catch(console.error);
+    await res.status(200).json({ message: 'email sent' }) 
 } 
 }
   

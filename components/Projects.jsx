@@ -10,7 +10,7 @@ function Projects() {
         
         try {
             const res = await axios.post('/api/confirm-email')
-            return res.json()  
+            //return res.json()  
           } catch (error) {
             console.log(error)
           }
