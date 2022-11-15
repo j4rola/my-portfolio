@@ -42,7 +42,7 @@ export default async function handler(req, res) {
     console.log('test')
     main().catch(console.error);
     console.log('we made it here')
-    await res.status(200).json({ message: 'email sent' }) 
+    await res.status(200)
 } 
 }
   
