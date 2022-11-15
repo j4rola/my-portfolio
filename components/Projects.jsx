@@ -7,8 +7,13 @@ import axios from "axios";
 function Projects() {  
 
     const sendEmail = async () => {
-        console.log('test')
-        await axios.post('/api/confirm-email') 
+        
+        try {
+            const res = await axios.post('/api/confirm-email')
+            return res.json()
+          } catch (error) {
+            console.log(error)
+          }
     }
 
   return (
