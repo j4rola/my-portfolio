@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';  
 import Link from 'next/link'; 
-import axios from "axios"
+import axios from "axios"; 
 
 
 function Projects() {  
@@ -39,9 +39,12 @@ function Projects() {
                         A website I made for a client who sells pure-bred golden doodle puppies. Built with Next.js for optimum SEO capabilities.
                     </Card.Text>   
                         <div className='flexy flex-nowrap'>  
-                            <Button onClick={() => sendEmail()} className='btn-primary my-2'>  
+                            <Button  className='btn-primary my-2'>  
                                 <Link href="https://www.supercutedoodles.com/"><a className='link'>Check it out</a></Link>  
                             </Button>         
+                            <Button onClick={() => sendEmail()}>
+                               test
+                            </Button>
                         </div>   
                 </Card.Body>     
             </Card>   
