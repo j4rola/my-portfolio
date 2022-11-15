@@ -39,7 +39,7 @@ function Projects() {
                         A website I made for a client who sells pure-bred golden doodle puppies. Built with Next.js for optimum SEO capabilities.
                     </Card.Text>   
                         <div className='flexy flex-nowrap'>  
-                            <Button onClick={sendEmail} className='btn-primary my-2'>  
+                            <Button onClick={sendEmail()} className='btn-primary my-2'>  
                                 <Link href="https://www.supercutedoodles.com/"><a className='link'>Check it out</a></Link>  
                             </Button>         
                         </div>   
