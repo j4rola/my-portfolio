@@ -1,4 +1,4 @@
-import Card from 'react-bootstrap/Card';
+import Card from 'react-bootstrap/Card';  
 import Button from 'react-bootstrap/Button';  
 import Link from 'next/link'; 
 import axios from "axios"; 
@@ -11,9 +11,10 @@ function Projects() {
         try {
             const res = await axios.post('/api/confirm-email')
             //return res.json()  
-          } catch (error) {
+        } catch (error) {
             console.log(error)
-          }
+        }
+        
     }
 
   return (
