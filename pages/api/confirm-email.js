@@ -37,11 +37,11 @@ async function main() {
 
 
 
-export default function handler(req, res) {  
+export default async function handler(req, res) {  
     if (req.method === 'POST'){
     console.log('test')
-    main().catch(console.error);
-    console.log('we made it here')
+    await main().catch(console.error)
+    console.log('we made it here')  
     res.status(200)
 } 
 }
