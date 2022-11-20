@@ -6,17 +6,6 @@ import axios from "axios";
 
 function Projects() {  
 
-    const sendEmail = async () => {
-        
-        try {
-            const res = await axios.post('/api/confirm-email')
-            //return res.json()  
-        } catch (error) {
-            console.log(error)
-        }
-        
-    }
-
   return (
     <div id='projects' className='flexy py-5 gray rounded-3' style={{ width: '97vw' }}>
         
@@ -49,9 +38,6 @@ function Projects() {
                             <Button  className='btn-primary my-2'>  
                                 <Link href="https://www.supercutedoodles.com/"><a className='link'>Check it out</a></Link>  
                             </Button>         
-                            <Button onClick={() => sendEmail()}>
-                               test
-                            </Button>
                         </div>   
                 </Card.Body>     
             </Card>   
