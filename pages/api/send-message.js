@@ -19,7 +19,9 @@ export default function handler(req, res) {
     console.log(text)
     //create text message 
     vonage.message.sendSms(from, to, text, (err, responseData) => {
+
         if (err) {
+            console.log(from)
             console.log(err);  
         } else {
             if(responseData.messages[0]['status'] === "0") {    
@@ -30,6 +32,6 @@ export default function handler(req, res) {
         }
     })
 
-
+    
     res.status(200).json({ name: 'John Doe' }) 
   }
