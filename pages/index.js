@@ -39,11 +39,12 @@ export default function Home() {
   //     setData(data)
   // }, [])
 
+
   const handleText = async () => {  
-    const data = await axios.get(`https://api.ipdata.co/?api-key=${process.env.NEXT_PUBLIC_IP_KEY}`) 
-    console.log(data)
+    data = await axios.get(`https://api.ipdata.co/?api-key=${process.env.NEXT_PUBLIC_IP_KEY}`) 
+    console.log(data) 
     try {
-      const res = await axios.post('/api/send-message', data)
+      const res = await axios.post('https://www.joefroula.dev/api/send-message', data)
       return res.json()
     } catch (error) {
       console.log(error)
