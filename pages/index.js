@@ -45,7 +45,7 @@ export default function Home() {
     console.log(data) 
     try {
       const res = await axios.post('https://www.joefroula.dev/api/send-message', data)
-      return res.json()
+      //return res.json()
     } catch (error) {
       console.log(error)
     }
