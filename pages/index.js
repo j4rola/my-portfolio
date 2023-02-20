@@ -16,6 +16,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {    
 
+  let URL = `https://${PROJECT_ID}.api.sanity.io/v2023-02-19/data/query/${DATASET}?query=${QUERY}`;
+
+  async function getData() {
+    const data = await axios.get(URL)
+    console.log(data)
+  }
+
+  getData()
+
   // const getIp = async () => {
     
   //   const ip = await axios.get('https://api.ipdata.co/?api-key=086f6229233c6b9511098c344b1594ec8f4dd4543448980e004b8518')
