@@ -16,12 +16,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {    
 
-  let PROJECT_ID = "8dws18j9";
-  let DATASET = "production";
-  let QUERY = encodeURIComponent('*[_type == "pet"]');
-
-  let URL = `https://${PROJECT_ID}.api.sanity.io/v2023-02-19/data/query/${DATASET}?query=${QUERY}`;
-
   async function getData() {
     const data = await axios.get(URL)
     console.log(data)
