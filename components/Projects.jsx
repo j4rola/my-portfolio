@@ -30,6 +30,22 @@ function Projects() {
                 </Card.Body>     
             </Card>   
 
+            <Card className='flexy flex-nowrap m-3 mx-5 py-2 shadow' style={{ width: '20rem', height: '20rem' }}> 
+                <Card.Body className='flexy flex-nowrap p-4 m-4'> 
+
+                    <Card.Title className='text-center'>Real Estate Landing Page</Card.Title>    
+                    <Card.Text className='text-center'>   
+                        A custom homepage re-design for a local real estate agaeny. 
+                    </Card.Text>   
+                    <div className='flexy flex-nowrap'>  
+                        <Button  className='btn-primary my-2'>  
+                            <Link href="https://axiarea.com/"><a className='link'>Check it out</a></Link>  
+                        </Button>         
+                    </div>   
+
+                </Card.Body>     
+            </Card>
+
             <Card className='flexy flex-nowrap m-3 py-2 shadow' style={{ width: '20rem', height: '20rem' }}>  
                 <Card.Body className='flexy flex-nowrap p-4 m-4'> 
 
