@@ -122,8 +122,10 @@ a {
 }
 
 .iframe-container {
+
   border: none;
-  width: 100%;
+  width: 65%;
+  height: auto;
   
 }
 
