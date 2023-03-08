@@ -90,6 +90,8 @@ export default function Home() {
         <Skills></Skills>
       </section>
 
+      <Calendar></Calendar>
+
       <div className='ghost-y-100'></div>
 
     </div> 

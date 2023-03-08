@@ -51,12 +51,12 @@ function Projects() {
 
                     <Card.Title>Wordle Clone</Card.Title>    
                     <Card.Text className='text-center'>   
-                        A practice arena for your favorite 5-letter word game.  
-                    </Card.Text>   
+                        A practice arena for your favorite 5-letter word game.             
+                    </Card.Text>      
                     
                     <div className='flexy flex-nowrap'>  
                         <Button className='btn-primary my-2'> 
-                        <Link href="https://wordle-j4rola.vercel.app/"><a className='link'>Check it out</a></Link>  
+                        <Link href="https://wordle-j4rola.vercel.app/"><a className='link'>Check it out</a></Link>   
                         </Button>  
                     </div>  
                     
