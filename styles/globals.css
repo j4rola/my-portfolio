@@ -123,8 +123,8 @@ a {
 
 .iframe-container {
   border: none;
-  width: 800px;
-  height: 600px;
+  width: 100%;
+  
 }
 
 
