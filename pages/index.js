@@ -18,7 +18,7 @@ export default function Home() {
 
   async function getData() {
     const data = await axios.get(URL)
-    const otherData = await axios.get('https://calendar.google.com/calendar/ical/1c1dfa4ce900c2a340bb24ce36acd5f9cfcb72a5306fa3de1d01cc580876c835%40group.calendar.google.com/public/basic.ics')
+    const otherData = await axios.get('https://clients6.google.com/calendar/v3/calendars/1c1dfa4ce900c2a340bb24ce36acd5f9cfcb72a5306fa3de1d01cc580876c835@group.calendar.google.com/events?calendarId=1c1dfa4ce900c2a340bb24ce36acd5f9cfcb72a5306fa3de1d01cc580876c835%40group.calendar.google.com&singleEvents=true&timeZone=America%2FLos_Angeles&maxAttendees=1&maxResults=250&sanitizeHtml=true&timeMin=2023-02-26T00%3A00%3A00-08%3A00&timeMax=2023-04-02T00%3A00%3A00-08%3A00&key=AIzaSyBNlYH01_9Hc5S1J9vuFmu2nUqBZJNAXxs')
     console.log(otherData)
     console.log(data)
   }
