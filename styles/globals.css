@@ -122,11 +122,8 @@ a {
 }
 
 .iframe-container {
-
   border: none;
-  width: 65%;
-  height: auto;
-  
+  height: 600px;
 }
 
 
