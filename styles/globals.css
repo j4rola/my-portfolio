@@ -121,6 +121,12 @@ a {
   text-shadow: gray .5px;
 }
 
+.iframe-container {
+  border: none;
+  width: 800px;
+  height: 600px;
+}
+
 
 
 
