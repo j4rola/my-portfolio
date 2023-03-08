@@ -10,9 +10,10 @@ import Link from 'next/link';
 import Image from 'next/image'; 
 import HeaderCard from '../components/HeaderCard';
 import Projects from '../components/Projects';
+import Calendar from '../components/Calendar'; 
 import Button from 'react-bootstrap/Button';
 import { GiPineapple } from "react-icons/gi";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';  
 
 export default function Home() {    
 
