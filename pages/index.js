@@ -16,40 +16,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {    
 
-  async function getData() {
-    const data = await axios.get(URL)
-    const otherData = fetch("https://clients6.google.com/calendar/v3/calendars/1c1dfa4ce900c2a340bb24ce36acd5f9cfcb72a5306fa3de1d01cc580876c835%40group.calendar.google.com/events?singleEvents=true&maxResults=250&timeMin=2023-03-08T00%3A00%3A00.000-08%3A00&timeMax=2023-03-09T00%3A00%3A00.000-08%3A00&key=AIzaSyD6_HeKtvHhvb2WOV-3u0yVFX14B77PZec", {
-      "headers": {
-        "accept": "*/*",
-        "accept-language": "en-US,en;q=0.9",
-        "authorization": "SAPISIDHASH 1678307324_5dfb311e470ccbf2bf23de85072271eb268ec0e1",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-origin",
-        "x-client-data": "CKO1yQEIibbJAQiktskBCMG2yQEIqZ3KAQjb7soBCJahywEIzYLNAQi9hc0BCN+JzQEI9YrNAQjhi80BCI6MzQEIpozNAQjZjM0BCPaOzQEI0uGsAgjx9K0CGNjszAE=",
-        "x-clientdetails": "appVersion=5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2013_2_3%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F13.0.3%20Mobile%2F15E148%20Safari%2F604.1&platform=MacIntel&userAgent=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2013_2_3%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F13.0.3%20Mobile%2F15E148%20Safari%2F604.1",
-        "x-goog-authuser": "0",
-        "x-goog-encode-response-if-executable": "base64",
-        "x-javascript-user-agent": "google-api-javascript-client/1.1.0",
-        "x-origin": "https://calendar.google.com",
-        "x-referer": "https://calendar.google.com",
-        "x-requested-with": "XMLHttpRequest"
-      },
-      "referrer": "https://clients6.google.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.Oupypiulh58.O%2Fd%3D1%2Frs%3DAHpOoo_CVmSAWqMsGCHgMRyaSvlE8hY6sw%2Fm%3D__features__",
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "body": null,
-      "method": "GET",
-      "mode": "cors",
-      "credentials": "include"
-    });
-    console.log(otherData)
-    console.log(data)
-
-    
-  }
-
-
-  getData()
+  
 
   // const getIp = async () => {
     
