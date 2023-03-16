@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='blue display-flex align-items-center'>© 2023 JM Consulting Co</div>
+    <div className='blue text-light display-flex align-items-center h-100'>© 2023 JM Consulting Co</div>
   )
 }
 
