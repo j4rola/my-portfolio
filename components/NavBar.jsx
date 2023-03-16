@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import ContactModal from './ContactModal'; 
 import { BsGithub } from "react-icons/bs";
+import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 
 
 
@@ -13,7 +14,9 @@ function NavBar() {
     <Navbar collapseOnSelect expand="lg" className='blue' variant='dark'> 
       <Container> 
         <Navbar.Brand href="#home">Joe Froula</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
+        <Navbar.Toggle className='border-0 bg-light' aria-controls="responsive-navbar-nav"> 
+          <HamburgerIcon/>
+        </Navbar.Toggle> 
         <Navbar.Collapse id="responsive-navbar-nav no-border"> 
           <Nav className="me-auto no-border">  
             <ContactModal></ContactModal>   
