@@ -96,7 +96,7 @@ export default function Home() {
         </style>
       </section>
 
-      <div className='ghost-y-100'></div>  
+    
 
     </div> 
   )    
