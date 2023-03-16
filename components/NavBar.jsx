@@ -15,7 +15,7 @@ function NavBar() {
     <Navbar collapseOnSelect expand="lg" className='blue' variant='dark'> 
       <Container> 
         <Navbar.Brand href="#home">Joe Froula</Navbar.Brand>
-        <Navbar.Toggle className='border-0 bg-light' aria-controls="responsive-navbar-nav"> 
+        <Navbar.Toggle className='border-0 bg-light' aria-controls="navbar-nav"> 
           <HamburgerIcon/>
         </Navbar.Toggle> 
         <Navbar.Collapse id="responsive-navbar-nav no-border"> 
