@@ -86,7 +86,7 @@ export default function Home() {
         <Skills></Skills>
       </section>
 
-      <section>
+      <section className="p-5 h-100">
         <Footer/>
       </section>
 
