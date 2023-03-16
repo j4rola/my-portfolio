@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import ContactModal from './ContactModal'; 
 import { BsGithub } from "react-icons/bs";
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
+import HamburgerIcon from './HamburgerIcon';
 
 
 
