@@ -19,7 +19,7 @@ const HamburgerIcon = () => (
           display: block;
           width: 24px;
           height: 2px;
-          background-color: black;
+          background-color: white;
           margin: 4px;
         }
       `}</style>
