@@ -13,6 +13,7 @@ import Projects from '../components/Projects';
 import Button from 'react-bootstrap/Button';
 import { GiPineapple } from "react-icons/gi";
 import 'bootstrap/dist/css/bootstrap.min.css';  
+import Footer from "../components/Footer";
 
 export default function Home() {    
 
@@ -85,8 +86,12 @@ export default function Home() {
         <Skills></Skills>
       </section>
 
+      <section>
+        <Footer/>
+      </section>
+
       <div className='ghost-y-100'></div>  
 
     </div> 
-  )  
+  )    
 }
