@@ -86,8 +86,14 @@ export default function Home() {
         <Skills></Skills>
       </section>
 
-      <section className="blue w-100 h-100">
+      <section className="blue footer">
         <Footer/>
+
+        <style jsx>
+          {`.footer {
+            height: 60vh
+          }`}
+        </style>
       </section>
 
       <div className='ghost-y-100'></div>  
