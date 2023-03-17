@@ -2,11 +2,11 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='blue text-light display-flex flex-column align-items-center h-100 p-5'>
+    <div className='blue text-light display-flex flex-column align-center h-100 p-5'>
         
         <p>a thing</p>
         <p>a second thing</p>
-        <p>© 2023 JM Consulting Co</p>
+        <p><h3>©</h3> 2023 JM Consulting Co</p>  
     </div>
   )
 }
