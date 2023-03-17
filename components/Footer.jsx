@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='blue text-light display-flex flex-column justify-content-center h-100 pt-5'>
+    <div className='blue text-light flexy h-100 pt-5'>
         
         <p>a thing</p>
         <p>a second thing</p>
