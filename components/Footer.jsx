@@ -6,7 +6,7 @@ function Footer() {
         
         <Link className='link' href="https://github.com/j4rola"><a className='link'>Github</a></Link>
         <Link className='link' href="https://twitter.com/j4rola"><a className='link'>Twitter</a></Link>
-        <h5 className='pt-2'>© 2023 JM Consulting Co</h5>
+        <h5 className='pt-5'>© 2023 JM Consulting Co</h5>
     </div>
   )
 }
