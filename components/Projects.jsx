@@ -30,6 +30,23 @@ function Projects() {
                 </Card.Body>     
             </Card>   
 
+            <Card className='flexy flex-nowrap m-3 py-2 shadow' style={{ width: '20rem', height: '20rem' }}>  
+                <Card.Body className='flexy flex-nowrap p-4 m-4'> 
+
+                    <Card.Title>Notes App</Card.Title>     
+                    <Card.Text className='text-center'>   
+                        A tabbed note-talking app built with Next.js, CockroachDb, and Prisma.             
+                    </Card.Text>       
+                    
+                    <div className='flexy flex-nowrap'>  
+                        <Button className='btn-primary my-2'> 
+                        <Link href="https://next-prisma-notes-app.vercel.app/"><a className='link'>Check it out</a></Link>   
+                        </Button>  
+                    </div>  
+                    
+                </Card.Body> 
+            </Card> 
+
             <Card className='flexy flex-nowrap m-3 mx-5 py-2 shadow' style={{ width: '20rem', height: '20rem' }}> 
                 <Card.Body className='flexy flex-nowrap p-4 m-4'> 
 
