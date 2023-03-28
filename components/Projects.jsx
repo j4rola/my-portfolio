@@ -25,7 +25,7 @@ function Projects() {
                         <Button  className='btn-primary my-2'>  
                             <Link href="https://www.supercutedoodles.com/"><a className='link'>Check it out</a></Link>  
                         </Button>         
-                    </div>   
+                    </div>     
 
                 </Card.Body>     
             </Card>   
