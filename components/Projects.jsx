@@ -22,9 +22,9 @@ function Projects() {
                         A website I made for a client who sells pure-bred golden doodle puppies. Built with Next.js for optimum SEO capabilities.
                     </Card.Text>   
                     <div className='flexy flex-nowrap'>  
-                        <Button  className='btn-primary my-2'>  
-                            <Link href="https://www.supercutedoodles.com/"><a className='link'>Check it out</a></Link>  
-                        </Button>         
+                          
+                        <Link href="https://www.supercutedoodles.com/"><Button className='btn-primary my-2'>Check it out</Button></Link>  
+                                 
                     </div>     
 
                 </Card.Body>     
@@ -39,29 +39,13 @@ function Projects() {
                     </Card.Text>       
                     
                     <div className='flexy flex-nowrap'>  
-                        <Button className='btn-primary my-2'> 
-                        <Link href="https://next-prisma-notes-app.vercel.app/"><a className='link'>Check it out</a></Link>   
-                        </Button>  
+                         
+                        <Link href="https://next-prisma-notes-app.vercel.app/"><Button className='btn-primary my-2'>Check it out</Button></Link>   
+                          
                     </div>  
                     
                 </Card.Body> 
             </Card> 
-
-            <Card className='flexy flex-nowrap m-3 mx-5 py-2 shadow' style={{ width: '20rem', height: '20rem' }}> 
-                <Card.Body className='flexy flex-nowrap p-4 m-4'> 
-
-                    <Card.Title className='text-center'>Real Estate Landing Page</Card.Title>    
-                    <Card.Text className='text-center'>   
-                        A custom homepage re-design for a local real estate agaeny. 
-                    </Card.Text>   
-                    <div className='flexy flex-nowrap'>  
-                        <Button  className='btn-primary my-2'>  
-                            <Link href="https://axiarea.com/"><a className='link'>Check it out</a></Link>  
-                        </Button>         
-                    </div>   
-
-                </Card.Body>     
-            </Card>
 
             <Card className='flexy flex-nowrap m-3 py-2 shadow' style={{ width: '20rem', height: '20rem' }}>  
                 <Card.Body className='flexy flex-nowrap p-4 m-4'> 
@@ -72,9 +56,9 @@ function Projects() {
                     </Card.Text>      
                     
                     <div className='flexy flex-nowrap'>  
-                        <Button className='btn-primary my-2'> 
-                        <Link href="https://wordle-j4rola.vercel.app/"><a className='link'>Check it out</a></Link>   
-                        </Button>  
+                         
+                        <Link href="https://wordle-j4rola.vercel.app/"><Button className='btn-primary my-2'>Check it out</Button></Link>   
+                          
                     </div>  
                     
                 </Card.Body> 
