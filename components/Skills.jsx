@@ -2,7 +2,7 @@
 
 function Skills() {
   return (
-    <div className="container text-center text-blue my-5">
+    <div className="container text-center text-blue my-5 py-3">
             <h1 className="my-5 ">Skills</h1> 
             <div className="row text-center">
                 <div className="col-md">

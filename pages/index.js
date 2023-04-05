@@ -1,17 +1,9 @@
 import axios from "axios"
-
-import { useEffect, useState } from 'react'; 
 import Head from 'next/head'; 
 import NavBar from '../components/NavBar'; 
 import Skills from '../components/Skills'; 
 import Header from '../components/Header'; 
-import { Fade } from '@mui/material'; 
-import Link from 'next/link'; 
-import Image from 'next/image'; 
-import HeaderCard from '../components/HeaderCard';
 import Projects from '../components/Projects'; 
-import Button from 'react-bootstrap/Button';
-import { GiPineapple } from "react-icons/gi";
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import Footer from "../components/Footer";
 
