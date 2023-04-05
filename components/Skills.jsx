@@ -8,7 +8,7 @@ function Skills() {
                 <div className="col-md">
                     <h3 className="my-3">Languages</h3>
                     <p>JavaScript</p>
-                    <p>GraphQl</p>
+                    <p>GraphQL</p>
                     <p>HTML</p>
                     <p>CSS</p>
                     

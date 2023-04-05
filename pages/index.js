@@ -91,7 +91,7 @@ export default function Home() {
 
         <style jsx>
           {`.footer {
-            height: 60vh
+            height: 50vh
           }`}
         </style>
       </section>
