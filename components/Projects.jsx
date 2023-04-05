@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';  
 import Button from 'react-bootstrap/Button';  
 import Link from 'next/link'; 
-import axios from "axios"; 
+
 
 
 function Projects() {    
@@ -19,7 +19,7 @@ function Projects() {
 
                     <Card.Title className='text-center'>Puppy Website</Card.Title>    
                     <Card.Text className='text-center'>   
-                        A website I made for a client who sells pure-bred golden doodle puppies. Built with Next.js for optimum SEO capabilities.
+                        A website I made for a client who sells pure-bred golden doodle puppies. Features an admin dashboard api and utilizes Next.js for optimum SEO capabilities. 
                     </Card.Text>   
                     <div className='flexy flex-nowrap'>    
                           
@@ -52,7 +52,7 @@ function Projects() {
 
                     <Card.Title>Wordle Clone</Card.Title>    
                     <Card.Text className='text-center'>   
-                        A practice arena for your favorite 5-letter word game.             
+                        A practice arena for your favorite 5-letter word game built with React.         
                     </Card.Text>      
                     
                     <div className='flexy flex-nowrap'>  
