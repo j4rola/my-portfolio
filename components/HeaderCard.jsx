@@ -10,7 +10,7 @@ function HeaderCard() {
         <Card.Body className='d-flex flex-column align-items-center p-5'> 
           <Card.Title><h2 className='text-center'>Full Stack Web Solutions</h2></Card.Title>   
           <Card.Text className='text-center'> 
-            I specialize in building solutions for small businesses that help them run more efficiently, and reach more people.
+            I build websites and write sofware for small businesses that help them run more efficiently, and reach more people.
           </Card.Text> 
           <Link href="mailto:jmfroula@gmail.com">Hire Me</Link> 
           
