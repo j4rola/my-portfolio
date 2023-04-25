@@ -5,6 +5,9 @@ const nextConfig = {
   images: {
     domains: ['https://asset.cloudinary.com'],
   },
+  experimental: {
+    appDir: true,
+  },
 }
 
 module.exports = nextConfig

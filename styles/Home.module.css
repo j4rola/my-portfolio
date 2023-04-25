@@ -12,6 +12,26 @@
   align-items: center;
 }
 
+.hamburger_icon {
+  background-color: transparent;
+  border: none;  
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.hamburger_line {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: white;
+  margin: 4px;
+}
+
 .footer {
   display: flex;
   flex: 1;
